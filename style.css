@@ -2,36 +2,32 @@
 body {
     background: url("world.png") no-repeat scroll top;
     background-size: contain;
-    position: center;
+    font-family: 'Raleway', sans-serif;
 }
 
 h1 {
     text-align: center;
 }
 
-#box {
-    width: 50vw;
+#grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+
     margin: 5px 25vw;
-
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-content: space-around;
-    align-items: stretch;
-
-
 }
 
 
-p {
-    font-family: 'Raleway', sans-serif;
-    width: 13vw;
-    height: 13vw;
+.card {
+    width: 150px;
+    height: 150px;
+
     background-color: bisque;
+
     color: chocolate;
     font-size: x-large;
     text-align: center;
-    line-height: 13vw;
+    line-height: 90px;
 
     border-radius: 20px;
 }
