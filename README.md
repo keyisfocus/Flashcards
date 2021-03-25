@@ -10,3 +10,5 @@
 3. Position the cards using the CSS property `grid/flex` so they make a 3x3 table.
 4. Set the fonts for the text.
 
+## Stage 3
+Make the answer on the back side appear when the user hovers over the card.
