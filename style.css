@@ -1,0 +1,37 @@
+
+body {
+    background: url("world.png") no-repeat scroll top;
+    background-size: contain;
+    position: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#box {
+    width: 50vw;
+    margin: 5px 25vw;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: stretch;
+
+
+}
+
+
+p {
+    font-family: 'Raleway', sans-serif;
+    width: 13vw;
+    height: 13vw;
+    background-color: bisque;
+    color: chocolate;
+    font-size: x-large;
+    text-align: center;
+    line-height: 13vw;
+
+    border-radius: 20px;
+}
